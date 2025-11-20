@@ -119,23 +119,6 @@ The system includes comprehensive evaluation using:
 - **Advanced Metrics**: Faithfulness, Answer Relevance
 - **Question Types**: Factual, Comparative, Conceptual queries
 
-## File Structure
-
-```
-RAG-assignment/
-├── main.py                 # Main application
-├── evaluation.py           # Evaluation system
-├── requirements.txt        # Python dependencies
-├── setup.py               # Package setup
-├── test_dataset.json      # Test questions
-├── README.md              # This file
-├── corpus/                # Document collection
-│   ├── speech1.txt
-│   ├── speech2.txt
-│   └── ...
-├── chroma_db/             # Vector database (generated)
-└── test_results_*.json    # Evaluation results (generated)
-```
 
 ## Results
 
@@ -178,5 +161,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [HuggingFace Transformers](https://huggingface.co/transformers/) for embeddings
 
 ## Author
+
 
 Built as part of a RAG system development assignment focusing on Dr. B.R. Ambedkar's works and philosophy.
